@@ -47,27 +47,29 @@ NS-LC:
 
 ## Quality-Diversity
 
-assets/bop.png
+<img src="assets/bop.png" alt="hi" class="inline"/>
 
 Original (Out-of-domain electronic keyboard sound):
 
-<audio controls src="assets/app/original.wav">
+<audio controls src="assets/app/orig.wav">
 </audio>
-
-assets/app/original.wav
 
 Best match (Red point in the BC space):
 
-assets/app/best.wav
+<audio controls src="assets/app/best.wav">
+</audio>
 
 Pure (Brown):
 
-assets/app/pure.wav
+<audio controls src="assets/app/pure.wav">
+</audio>
 
 Bright (Pink):
 
-assets/app/bright.wav
+<audio controls src="assets/app/bright.wav">
+</audio>
 
 Pure and Bright (Orange):
 
-assets/app/pb.wav
+<audio controls src="assets/app/pb.wav">
+</audio>
