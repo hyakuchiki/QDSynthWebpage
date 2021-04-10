@@ -3,7 +3,7 @@ Accompanying website for "Quality Diversity for Synthesizer Sound Matching" subm
 
 ## Animation of the Evolution
 
-The histogram of population in BC space during a typical run is shown below. Bins with lighter color has the most individuals. The x axis is the spectral flatness (dB) and the y axis is spectral centroid (Hz). As can be seen from the animation, methods with novelty objective (NSGC, NSLC) explores a wider region, leading to the discovery of diverse solutions.
+The histogram of population in BC space during a typical run is shown below. Bins with lighter color has the most individuals. The x axis is the spectral flatness (dB) and the y axis is spectral centroid (Hz). As can be seen from the animation, methods with novelty objective (NS-GC, NS-LC) explores a wider region, leading to the discovery of diverse solutions.
 
 ### GA
 
@@ -11,18 +11,60 @@ The histogram of population in BC space during a typical run is shown below. Bin
   <source src="video/ga_nsynth_0.mp4" type="video/mp4">
 </video>
 
-### NSGC
+### NS-GC
 
 <video width="500" height="500" controls="controls">
   <source src="video/nsgc_nsynth_0.mp4" type="video/mp4">
 </video>
 
-### NSLC
+### NS-LC
 
 <video width="500" height="500" controls="controls">
   <source src="video/nslc_nsynth_0.mp4" type="video/mp4">
 </video>
 
-## Example audio
+## Parameter Estimation
 
-Website will be updated with example audio
+### In-domain
+
+Original:
+
+GA:
+
+NS-GC:
+
+NS-LC:
+
+### Out-of-domain
+
+Original:
+
+GA:
+
+NS-GC:
+
+NS-LC:
+
+## Quality-Diversity
+
+docs/assets/bop.png
+
+Original (Out-of-domain electronic keyboard sound):
+
+docs/assets/app/original.wav
+
+Best match (Red point in the BC space):
+
+docs/assets/app/best.wav
+
+Pure (Brown):
+
+docs/assets/app/pure.wav
+
+Bright (Pink):
+
+docs/assets/app/bright.wav
+
+Pure and Bright (Orange):
+
+docs/assets/app/pb.wav
