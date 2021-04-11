@@ -25,25 +25,43 @@ The histogram of population in BC space during a typical run is shown below. Bin
 
 ## Parameter Estimation
 
-### In-domain
+### Medium
 
-Original:
+### Large
 
-GA:
-
-NS-GC:
-
-NS-LC:
-
-### Out-of-domain
-
-Original:
-
-GA:
-
-NS-GC:
-
-NS-LC:
+<table>
+    <thead>
+        <tr>
+            <th colspan="4">In-domain (DX7 preset)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Original</td>
+            <td>GA</td>
+            <td>NS-GC</td>
+            <td>NS-LC</td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/large/dexed/3_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/dexed/3_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/dexed/3_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/dexed/3_nslc.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/large/dexed/24_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/dexed/24_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/dexed/24_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/dexed/24_nslc.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/large/dexed/26_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/dexed/26_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/dexed/26_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/dexed/26_nslc.mp3"></audio></td>
+        </tr>
+    </tbody>
+</table>
 
 ## Quality-Diversity
 
@@ -59,14 +77,14 @@ Best match (Red point in the BC space):
 <audio controls src="assets/app/best.wav">
 </audio>
 
-Pure (Brown):
-
-<audio controls src="assets/app/pure.wav">
-</audio>
-
 Bright (Pink):
 
 <audio controls src="assets/app/bright.wav">
+</audio>
+
+Pure (Brown):
+
+<audio controls src="assets/app/pure.wav">
 </audio>
 
 Pure and Bright (Orange):
