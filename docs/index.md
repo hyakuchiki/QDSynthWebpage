@@ -25,7 +25,77 @@ The histogram of population in BC space during a typical run is shown below. Bin
 
 ## Parameter Estimation
 
+We show the results of sound matching (parameter estimation) in the synthesizer settings medium and large using GA/NS-GC/NS-LC. It can be deduced from the audio that the large setting with vibrato enabled abused the vibrato feature to obtain a flat spectra to achieve better log-spectral distortion.
+
 ### Medium
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="4">In-domain (DX7 preset)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Original</td>
+            <td>GA</td>
+            <td>NS-GC</td>
+            <td>NS-LC</td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/medium/dexed/3_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/dexed/3_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/dexed/3_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/dexed/3_nslc.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/medium/dexed/24_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/dexed/24_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/dexed/24_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/dexed/24_nslc.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/medium/dexed/26_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/dexed/26_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/dexed/26_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/dexed/26_nslc.mp3"></audio></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="4">Out-of-domain (Nsynth Dataset))</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Original</td>
+            <td>GA</td>
+            <td>NS-GC</td>
+            <td>NS-LC</td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/medium/nsynth/2_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/nsynth/2_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/nsynth/2_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/nsynth/2_nslc.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/medium/nsynth/5_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/nsynth/5_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/nsynth/5_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/nsynth/5_nslc.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/medium/nsynth/13_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/nsynth/13_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/nsynth/13_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/medium/nsynth/13_nslc.mp3"></audio></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Large
 
@@ -59,6 +129,40 @@ The histogram of population in BC space during a typical run is shown below. Bin
             <td><audio controls src="assets/match/large/dexed/26_ga.mp3"></audio></td>
             <td><audio controls src="assets/match/large/dexed/26_nsgc.mp3"></audio></td>
             <td><audio controls src="assets/match/large/dexed/26_nslc.mp3"></audio></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="4">Out-of-domain (Nsynth Dataset))</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Original</td>
+            <td>GA</td>
+            <td>NS-GC</td>
+            <td>NS-LC</td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/large/nsynth/2_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/nsynth/2_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/nsynth/2_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/nsynth/2_nslc.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/large/nsynth/5_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/nsynth/5_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/nsynth/5_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/nsynth/5_nslc.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/large/nsynth/13_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/nsynth/13_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/nsynth/13_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/large/nsynth/13_nslc.mp3"></audio></td>
         </tr>
     </tbody>
 </table>
