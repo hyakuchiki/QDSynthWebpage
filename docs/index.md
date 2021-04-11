@@ -25,9 +25,11 @@ The histogram of population in BC space during a typical run is shown below. Bin
 
 ## Parameter Estimation
 
-We show the results of sound matching (parameter estimation) in the synthesizer settings medium and large using GA/NS-GC/NS-LC. It can be deduced from the audio that the large setting with vibrato enabled abused the vibrato feature to obtain a flat spectra to achieve better log-spectral distortion.
+We show the results of sound matching (parameter estimation) with Dexed (in the synthesizer settings medium and large) and u-he Diva using GA/NS-GC/NS-LC. It can be deduced from the results of Dexed-Large that the large setting with vibrato enabled abused the vibrato feature to obtain a flat spectra to achieve better log-spectral distortion.
 
-### Medium
+WARNING: VERY LOUD SOUNDS INCLUDED! (sometimes clipping)
+
+### Dexed Medium
 
 <table>
     <thead>
@@ -97,7 +99,7 @@ We show the results of sound matching (parameter estimation) in the synthesizer 
     </tbody>
 </table>
 
-### Large
+### Dexed Large
 
 <table>
     <thead>
@@ -163,6 +165,54 @@ We show the results of sound matching (parameter estimation) in the synthesizer 
             <td><audio controls src="assets/match/large/nsynth/13_ga.mp3"></audio></td>
             <td><audio controls src="assets/match/large/nsynth/13_nsgc.mp3"></audio></td>
             <td><audio controls src="assets/match/large/nsynth/13_nslc.mp3"></audio></td>
+        </tr>
+    </tbody>
+</table>
+
+### Diva
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="4">Out-of-domain (Nsynth Dataset))</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Original</td>
+            <td>GA</td>
+            <td>NS-GC</td>
+            <td>NS-LC</td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/diva/2_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/2_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/2_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/2_nslc.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/diva/4_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/4_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/4_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/4_nslc.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/diva/13_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/13_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/13_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/13_nslc.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/diva/24_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/24_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/24_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/24_nslc.mp3"></audio></td>
+        </tr>
+        <tr>
+            <td><audio controls src="assets/match/diva/26_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/26_ga.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/26_nsgc.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/26_nslc.mp3"></audio></td>
         </tr>
     </tbody>
 </table>
