@@ -219,29 +219,29 @@ WARNING: VERY LOUD SOUNDS INCLUDED! (sometimes clipping)
 
 ## Quality-Diversity
 
-<img src="assets/bop.png" alt="hi" class="inline"/>
+<img src="assets/trumpet_map.png" alt="hi" class="inline"/>
 
 Original (Out-of-domain electronic keyboard sound):
 
-<audio controls src="assets/app/orig.wav">
+<audio controls src="assets/app/orig.ogg">
 </audio>
 
 Best match (Red point in the BC space):
 
-<audio controls src="assets/app/best.wav">
+<audio controls src="assets/app/best.ogg">
 </audio>
 
 Bright (Pink):
 
-<audio controls src="assets/app/bright.wav">
+<audio controls src="assets/app/bright.ogg">
 </audio>
 
 Pure (Brown):
 
-<audio controls src="assets/app/pure.wav">
+<audio controls src="assets/app/pure.ogg">
 </audio>
 
-Pure and Bright (Orange):
+Noisy (Orange):
 
-<audio controls src="assets/app/pb.wav">
+<audio controls src="assets/app/noise.ogg">
 </audio>
