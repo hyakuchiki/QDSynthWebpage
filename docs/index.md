@@ -3,7 +3,7 @@ Accompanying website for "Quality Diversity for Synthesizer Sound Matching" subm
 
 ## Animation of the Evolution
 
-The histogram of population in BC space during a typical run is shown below. Bins with lighter color has the most individuals. The x axis is the spectral flatness (dB) and the y axis is spectral centroid (Hz). As can be seen from the animation, methods with novelty objective (NS-GC, NS-LC) explores a wider region, leading to the discovery of diverse solutions.
+The histogram of population in BC space during a typical run is shown below. Bins with lighter color have the most individuals. The x axis is the spectral flatness (dB) and the y axis is spectral centroid (Hz). As can be seen from the animation, methods with novelty objective (NS-GC, NS-LC) explore a wider region, leading to the discovery of diverse solutions.
 
 ### GA
 
@@ -115,31 +115,31 @@ WARNING: VERY LOUD SOUNDS INCLUDED! (sometimes clipping)
             <td>NS-LC</td>
         </tr>
         <tr>
-            <td><audio controls src="assets/match/diva/diva/2_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/diva/2_orig.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/2_ga.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/2_nsgc.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/2_nslc.mp3"></audio></td>
         </tr>
         <tr>
-            <td><audio controls src="assets/match/diva/diva/3_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/diva/3_orig.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/3_ga.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/3_nsgc.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/3_nslc.mp3"></audio></td>
         </tr>
         <tr>
-            <td><audio controls src="assets/match/diva/diva/4_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/diva/4_orig.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/4_ga.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/4_nsgc.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/4_nslc.mp3"></audio></td>
         </tr>
         <tr>
-            <td><audio controls src="assets/match/diva/diva/6_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/diva/6_orig.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/6_ga.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/6_nsgc.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/6_nslc.mp3"></audio></td>
         </tr>
         <tr>
-            <td><audio controls src="assets/match/diva/diva/8_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/diva/8_orig.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/8_ga.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/8_nsgc.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/diva/8_nslc.mp3"></audio></td>
@@ -161,31 +161,31 @@ WARNING: VERY LOUD SOUNDS INCLUDED! (sometimes clipping)
             <td>NS-LC</td>
         </tr>
         <tr>
-            <td><audio controls src="assets/match/diva/nsynth/2_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/nsynth/2_orig.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/2_ga.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/2_nsgc.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/2_nslc.mp3"></audio></td>
         </tr>
         <tr>
-            <td><audio controls src="assets/match/diva/nsynth/4_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/nsynth/4_orig.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/4_ga.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/4_nsgc.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/4_nslc.mp3"></audio></td>
         </tr>
         <tr>
-            <td><audio controls src="assets/match/diva/nsynth/13_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/nsynth/13_orig.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/13_ga.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/13_nsgc.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/13_nslc.mp3"></audio></td>
         </tr>
         <tr>
-            <td><audio controls src="assets/match/diva/nsynth/24_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/nsynth/24_orig.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/24_ga.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/24_nsgc.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/24_nslc.mp3"></audio></td>
         </tr>
         <tr>
-            <td><audio controls src="assets/match/diva/nsynth/26_o.mp3"></audio></td>
+            <td><audio controls src="assets/match/diva/nsynth/26_orig.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/26_ga.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/26_nsgc.mp3"></audio></td>
             <td><audio controls src="assets/match/diva/nsynth/26_nslc.mp3"></audio></td>
